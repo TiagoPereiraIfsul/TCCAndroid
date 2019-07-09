@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context=".Estilo.FragmentEstilo">
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="70dp"
+        android:text="CATEGORIA:" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="220dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="170dp"
+        android:text="PREÇO:" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:ems="10"
+        android:hint="Nome:"
+        android:inputType="textPersonName"
+        android:textColor="#fff"
+        android:textColorHighlight="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textCursorDrawable="@android:color/background_light" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="168dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp"
+        android:layout_marginBottom="3dp"
+        app:cardBackgroundColor="@android:color/darker_gray"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Salvar"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>/>
+
+</FrameLayout>
